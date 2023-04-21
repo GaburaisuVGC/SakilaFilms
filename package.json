@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node back/index.js",
-    "dev": "concurrently \"cd back && node index.js\" \"cd front && npm start\"",
+    "start": "node back/server.js",
+    "dev": "concurrently \"cd back && node server.js\" \"cd front && npm start\"",
     "client": "cd front && npm start"
   },
   "repository": {
