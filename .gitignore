@@ -1,0 +1,7 @@
+# ignore .env in the back directory
+back/.env
+```
+back/node_modules
+```
+front/node_modules
+```
