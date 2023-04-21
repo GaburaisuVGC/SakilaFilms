@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node back/server.js",
-    "dev": "concurrently \"cd back && node server.js\" \"cd front && npm start\"",
-    "client": "cd front && npm start"
+    "dev": "concurrently \"cd back && node server.js\" \"cd front && npm build\"",
+    "client": "cd front && npm build"
   },
   "repository": {
     "type": "git",
