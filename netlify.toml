@@ -1,2 +1,5 @@
+[build]
+  command = "concurrently \"cd back && node index.js\" \"cd front && npm run build\""
+  publish = "build"
 [dev]
   command = "concurrently \"cd back && node index.js\" \"cd front && npm start\""
