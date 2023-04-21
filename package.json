@@ -1,0 +1,24 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node back/index.js",
+    "dev": "netlify dev",
+    "client": "cd front && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaburaisuVGC/SakilaFilms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaburaisuVGC/SakilaFilms/issues"
+  },
+  "homepage": "https://github.com/GaburaisuVGC/SakilaFilms#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
