@@ -19,6 +19,13 @@
   },
   "homepage": "https://github.com/GaburaisuVGC/SakilaFilms#readme",
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
