@@ -52,11 +52,11 @@ const App = () => {
       <thead>
         <tr>
           <th>Index</th>
-          <th onClick={() => handleSort('title')}>Title {sortColumn === 'title' ? (sortDirection === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('category_name')}>Genre {sortColumn === 'category_name' ? (sortDirection === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('rental_rate')}>Rental Rate {sortColumn === 'rental_rate' ? (sortDirection === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('rating')}>Rating {sortColumn === 'rating' ? (sortDirection === 'asc' ? '▲' : '▼') : ''}</th>
-          <th onClick={() => handleSort('nb_of_rent')}>Rental Count {sortColumn === 'nb_of_rent' ? (sortDirection === 'asc' ? '▲' : '▼') : ''}</th>
+          <th onClick={() => handleSort('title')}>Title {sortColumn === 'title' ? (sortDirection === 'asc' ? '▲' : '▼') : '▲▼'}</th>
+          <th onClick={() => handleSort('category_name')}>Genre {sortColumn === 'category_name' ? (sortDirection === 'asc' ? '▲' : '▼') : '▲▼'}</th>
+          <th onClick={() => handleSort('rental_rate')}>Rental Rate {sortColumn === 'rental_rate' ? (sortDirection === 'asc' ? '▲' : '▼') : '▲▼'}</th>
+          <th onClick={() => handleSort('rating')}>Rating {sortColumn === 'rating' ? (sortDirection === 'asc' ? '▲' : '▼') : '▲▼'}</th>
+          <th onClick={() => handleSort('nb_of_rent')}>Rental Count {sortColumn === 'nb_of_rent' ? (sortDirection === 'asc' ? '▲' : '▼') : '▲▼'}</th>
         </tr>
       </thead>
     );
