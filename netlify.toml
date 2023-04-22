@@ -1,5 +1,5 @@
 [build]
   command = "cd front && npm run build"
-  publish = "build"
+  publish = "front/build"
 [dev]
   command = "concurrently \"cd back && node server.js\" \"cd front && npm start\""
