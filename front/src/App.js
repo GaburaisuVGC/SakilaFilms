@@ -25,6 +25,10 @@ const App = () => {
 
   const handlePageSizeChange = (size) => {
     setMoviesPerPage(size);
+    if (currentPage > 1) {
+      setCurrentPage(1);
+      setOffset(0);
+    }
   };
 
   const handlePageChange = (page) => {
