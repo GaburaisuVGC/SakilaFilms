@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await axios.get(`http://localhost:5000/films?limit=${moviesPerPage}&offset=${offset}&sortColumn=${sortColumn}&sortDirection=${sortDirection}`);
+      const response = await axios.get(`https://sakila-films.herokuapp.com/films?limit=${moviesPerPage}&offset=${offset}&sortColumn=${sortColumn}&sortDirection=${sortDirection}`);
       setMovies(response.data);
       setTotalPages(Math.ceil(response.data[0].count / moviesPerPage));
 
